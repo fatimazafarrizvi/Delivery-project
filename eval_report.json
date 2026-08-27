@@ -1,0 +1,392 @@
+{
+  "summary": {
+    "total_cases": 12,
+    "passed_cases": 12,
+    "failed_cases": 0,
+    "average_score": 0.99
+  },
+  "results": [
+    {
+      "task": "triage",
+      "case": "databridge_timeout_production",
+      "passed": true,
+      "score": 1.0,
+      "checks": {
+        "product": true,
+        "product_area": true,
+        "category": true,
+        "urgency": true,
+        "reasoning": true,
+        "draft_response": true,
+        "kb_match": true
+      },
+      "judge": {
+        "mode": "heuristic",
+        "scores": {
+          "structured": 1.0,
+          "reasoning": 1.0,
+          "draft_actionable": 1.0,
+          "kb_shape": 1.0
+        },
+        "overall": 1.0
+      },
+      "output_summary": {
+        "product": "DataBridge Pro",
+        "product_area": "Pipeline Monitoring",
+        "category": "Performance",
+        "urgency": "P2",
+        "team": "Performance Support"
+      }
+    },
+    {
+      "task": "triage",
+      "case": "securevault_saml_login_blocked",
+      "passed": true,
+      "score": 1.0,
+      "checks": {
+        "product": true,
+        "product_area": true,
+        "category": true,
+        "urgency": true,
+        "reasoning": true,
+        "draft_response": true,
+        "kb_match": true
+      },
+      "judge": {
+        "mode": "heuristic",
+        "scores": {
+          "structured": 1.0,
+          "reasoning": 1.0,
+          "draft_actionable": 1.0,
+          "kb_shape": 1.0
+        },
+        "overall": 1.0
+      },
+      "output_summary": {
+        "product": "SecureVault",
+        "product_area": "SSO Configuration",
+        "category": "Integration",
+        "urgency": "P1",
+        "team": "Incident Command"
+      }
+    },
+    {
+      "task": "triage",
+      "case": "analyticshub_export_row_limit",
+      "passed": true,
+      "score": 1.0,
+      "checks": {
+        "product": true,
+        "category": true,
+        "urgency": true,
+        "reasoning": true,
+        "draft_response": true,
+        "kb_match": true
+      },
+      "judge": {
+        "mode": "heuristic",
+        "scores": {
+          "structured": 1.0,
+          "reasoning": 1.0,
+          "draft_actionable": 1.0,
+          "kb_shape": 1.0
+        },
+        "overall": 1.0
+      },
+      "output_summary": {
+        "product": "AnalyticsHub",
+        "product_area": "Exports",
+        "category": "Billing",
+        "urgency": "P3",
+        "team": "Billing Operations"
+      }
+    },
+    {
+      "task": "triage",
+      "case": "cloudsync_conflict_storm",
+      "passed": true,
+      "score": 1.0,
+      "checks": {
+        "product": true,
+        "category": true,
+        "urgency": true,
+        "reasoning": true,
+        "draft_response": true,
+        "kb_match": true
+      },
+      "judge": {
+        "mode": "heuristic",
+        "scores": {
+          "structured": 1.0,
+          "reasoning": 1.0,
+          "draft_actionable": 1.0,
+          "kb_shape": 1.0
+        },
+        "overall": 1.0
+      },
+      "output_summary": {
+        "product": "CloudSync",
+        "product_area": "Conflict Resolution",
+        "category": "Performance",
+        "urgency": "P3",
+        "team": "Performance Support"
+      }
+    },
+    {
+      "task": "triage",
+      "case": "workflowengine_bulk_action_feature",
+      "passed": true,
+      "score": 1.0,
+      "checks": {
+        "product": true,
+        "category": true,
+        "urgency": true,
+        "reasoning": true,
+        "draft_response": true,
+        "kb_match": true
+      },
+      "judge": {
+        "mode": "heuristic",
+        "scores": {
+          "structured": 1.0,
+          "reasoning": 1.0,
+          "draft_actionable": 1.0,
+          "kb_shape": 1.0
+        },
+        "overall": 1.0
+      },
+      "output_summary": {
+        "product": "WorkflowEngine",
+        "product_area": "Actions",
+        "category": "Feature Request",
+        "urgency": "P4",
+        "team": "Product Management"
+      }
+    },
+    {
+      "task": "triage",
+      "case": "adversarial_ambiguous_ticket",
+      "passed": true,
+      "score": 1.0,
+      "checks": {
+        "product": true,
+        "product_area": true,
+        "category": true,
+        "urgency": true,
+        "reasoning": true,
+        "draft_response": true,
+        "adversarial_abstains": true,
+        "no_known_issue": true
+      },
+      "judge": {
+        "mode": "heuristic",
+        "scores": {
+          "structured": 1.0,
+          "reasoning": 1.0,
+          "draft_actionable": 1.0,
+          "kb_shape": 1.0
+        },
+        "overall": 1.0
+      },
+      "output_summary": {
+        "product": "Unknown",
+        "product_area": "Unknown",
+        "category": "Bug",
+        "urgency": "P3",
+        "team": "Tier 2 Product Support"
+      }
+    },
+    {
+      "task": "account_brief",
+      "case": "at_risk_inactive_with_competitor_note",
+      "passed": true,
+      "score": 1.0,
+      "checks": {
+        "no_error": true,
+        "three_sections": true,
+        "min_risks": true,
+        "talking_points": true,
+        "deterministic": true,
+        "ticket_quote": true,
+        "risk_source:data_quality": true,
+        "contains:At Risk": true,
+        "contains:inactive": true,
+        "contains:competing vendor": true,
+        "contains:P1 claim disagrees": true
+      },
+      "judge": {
+        "mode": "heuristic",
+        "scores": {
+          "three_sections": 1.0,
+          "uses_facts": 1.0,
+          "talking_points": 1.0,
+          "deterministic_shape": 1.0
+        },
+        "overall": 1.0
+      },
+      "output_summary": {
+        "account_id": "ACC-3336",
+        "company": "Omni Consumer Products",
+        "risk_count": 8,
+        "ticket_count": 1,
+        "error": ""
+      }
+    },
+    {
+      "task": "account_brief",
+      "case": "new_account_onboarding_context",
+      "passed": true,
+      "score": 1.0,
+      "checks": {
+        "no_error": true,
+        "three_sections": true,
+        "min_risks": true,
+        "talking_points": true,
+        "deterministic": true,
+        "contains:New": true,
+        "contains:ticket window": true
+      },
+      "judge": {
+        "mode": "heuristic",
+        "scores": {
+          "three_sections": 1.0,
+          "uses_facts": 1.0,
+          "talking_points": 1.0,
+          "deterministic_shape": 1.0
+        },
+        "overall": 1.0
+      },
+      "output_summary": {
+        "account_id": "ACC-5748",
+        "company": "Nexus Data",
+        "risk_count": 2,
+        "ticket_count": 1,
+        "error": ""
+      }
+    },
+    {
+      "task": "account_brief",
+      "case": "churning_account",
+      "passed": true,
+      "score": 1.0,
+      "checks": {
+        "no_error": true,
+        "three_sections": true,
+        "min_risks": true,
+        "talking_points": true,
+        "deterministic": true,
+        "contains:Churning": true,
+        "contains:declining": true
+      },
+      "judge": {
+        "mode": "heuristic",
+        "scores": {
+          "three_sections": 1.0,
+          "uses_facts": 1.0,
+          "talking_points": 1.0,
+          "deterministic_shape": 1.0
+        },
+        "overall": 1.0
+      },
+      "output_summary": {
+        "account_id": "ACC-7042",
+        "company": "Hooli Corp",
+        "risk_count": 7,
+        "ticket_count": 0,
+        "error": ""
+      }
+    },
+    {
+      "task": "account_brief",
+      "case": "healthy_account_low_utilization",
+      "passed": true,
+      "score": 1.0,
+      "checks": {
+        "no_error": true,
+        "three_sections": true,
+        "min_risks": true,
+        "talking_points": true,
+        "deterministic": true,
+        "contains:Healthy": true,
+        "contains:Seat utilization is low": true
+      },
+      "judge": {
+        "mode": "heuristic",
+        "scores": {
+          "three_sections": 1.0,
+          "uses_facts": 1.0,
+          "talking_points": 1.0,
+          "deterministic_shape": 1.0
+        },
+        "overall": 1.0
+      },
+      "output_summary": {
+        "account_id": "ACC-9010",
+        "company": "Wayne Enterprises",
+        "risk_count": 1,
+        "ticket_count": 0,
+        "error": ""
+      }
+    },
+    {
+      "task": "account_brief",
+      "case": "adversarial_missing_account",
+      "passed": true,
+      "score": 0.88,
+      "checks": {
+        "expected_error": true,
+        "contains:Account not found": true
+      },
+      "judge": {
+        "mode": "heuristic",
+        "scores": {
+          "three_sections": 0.0,
+          "uses_facts": 1.0,
+          "talking_points": 1.0,
+          "deterministic_shape": 1.0
+        },
+        "overall": 0.75
+      },
+      "output_summary": {
+        "account_id": "ACC-NOT-REAL",
+        "company": "",
+        "risk_count": 0,
+        "ticket_count": 0,
+        "error": "Account not found in accounts.json."
+      }
+    },
+    {
+      "task": "account_brief",
+      "case": "adversarial_incomplete_account",
+      "passed": true,
+      "score": 1.0,
+      "checks": {
+        "no_error": true,
+        "three_sections": true,
+        "min_risks": true,
+        "talking_points": true,
+        "deterministic": true,
+        "contains:incomplete": true,
+        "contains:Partial Corp": true,
+        "excludes:$0 ARR": true
+      },
+      "judge": {
+        "mode": "heuristic",
+        "scores": {
+          "three_sections": 1.0,
+          "uses_facts": 1.0,
+          "talking_points": 1.0,
+          "deterministic_shape": 1.0
+        },
+        "overall": 1.0
+      },
+      "output_summary": {
+        "account_id": "ACC-INCOMPLETE",
+        "company": "Partial Corp",
+        "risk_count": 2,
+        "ticket_count": 0,
+        "error": ""
+      }
+    }
+  ]
+}

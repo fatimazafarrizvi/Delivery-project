@@ -1,0 +1,9 @@
+.venv/
+venv/
+.env
+__pycache__/
+*.pyc
+.streamlit/secrets.toml
+.pytest_cache/
+intern_task_round__3_.pdf
+README (1).md
